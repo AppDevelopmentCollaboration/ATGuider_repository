@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/action_accept"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_cab_done_holo_dark"
+        android:title="@string/accept"/>
+    
+    <item 
+        android:id="@+id/action_reject"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_clear_disabled"
+        android:title="@string/reject"/>
+
+</menu>

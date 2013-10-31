@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ATGuider</string>
+    <string name="action_settings">Настройки</string>
+    <string name="addItem">Добавить маркер</string>
+    <string name="startBatchMode">Начать работу в фоновом режиме</string>
+    <string name="title_activity_marker_info">Маркер</string>
+    <string name="markerName">Название места</string>
+    <string name="markerNameHint">Красная площадь</string>
+    <string name="markerTypeHint">Личное</string>
+    <string name="markerTypeString">Категория места</string>
+
+    <string-array name="markerType">
+        <item>Достоприм. архитектура</item>
+        <item>Музеи</item>
+        <item>Театры</item>
+        <item>Магазины, ТРЦентры</item>
+        <item>Личное</item>
+    </string-array>
+
+    <string name="accept">Принять</string>
+    <string name="reject">Отменить</string>
+    
+    <string name="editMarkerBut">Редактировать</string>
+    <string name="record_playMarkerBut">Запись/Проигрывание</string>
+    <string name="deleteMarker">Удалить маркер</string>
+    
+    <string name="bottomButFrag">ButtonsFragment</string>
+
+</resources>

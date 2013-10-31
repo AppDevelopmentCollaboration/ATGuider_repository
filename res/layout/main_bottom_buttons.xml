@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/editMarkerBut"
+        style="?android:attr/borderlessButtonStyle"
+        android:src="@android:drawable/ic_menu_edit"/>
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/record_playMarkerBut"
+        style="?android:attr/borderlessButtonStyle" 
+        android:src="@android:drawable/ic_media_play"/>
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/deleteMarker"
+        style="?android:attr/borderlessButtonStyle" 
+        android:src="@android:drawable/ic_menu_delete"/>
+
+</LinearLayout>
