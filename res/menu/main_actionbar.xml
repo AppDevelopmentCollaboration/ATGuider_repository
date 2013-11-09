@@ -1,17 +1,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <item
-        android:id="@+id/action_addItem"
-        android:icon="@android:drawable/ic_input_add"
-        android:orderInCategory="1"
-        android:showAsAction="always"
-        android:title="@string/addItem"/>
-    <item
-        android:id="@+id/action_startBatchMode"
-        android:icon="@android:drawable/ic_media_play"
-        android:orderInCategory="2"
-        android:showAsAction="always"
-        android:title="@string/startBatchMode"/>    
+    <group android:id="@+id/mainActionsItems" >
+        <item
+            android:id="@+id/action_addItem"
+            android:icon="@android:drawable/ic_input_add"
+            android:orderInCategory="1"
+            android:showAsAction="always"
+            android:title="@string/addItem"/>
+        <item
+            android:id="@+id/action_startBatchMode"
+            android:icon="@android:drawable/ic_media_play"
+            android:orderInCategory="2"
+            android:showAsAction="always"
+            android:title="@string/startBatchMode"/>
+    </group>
 
     <item
         android:id="@+id/action_settings"
